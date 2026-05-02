@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+#timeline-container {
+    flex: 1;
+    overflow-x: scroll;
+    background: #f0f0f0;
+    position: relative;
+}
+
+#timeline {
+    width: 5000px;
+    height: 100%;
+    position: relative;
+}
+
+.event {
+    position: absolute;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
